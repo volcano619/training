@@ -22,7 +22,7 @@ namespace App2
             SetSupportActionBar(toolbar);
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            fab.Click += FabOnClick;   //Hello
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
